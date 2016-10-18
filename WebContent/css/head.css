@@ -1,0 +1,47 @@
+body{
+	font-size:14px;
+}
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style-type: none;
+}
+.head{
+    width:1000px;
+    height:101px;
+    margin:0 auto;
+    background-color: #3b5888;
+}
+.head img{
+    float: left;
+}
+.head ul li{
+    float: left;
+    height:33px;
+    line-height:33px;
+    width:60px;
+    text-align: center;
+
+}
+.head a{
+    color:white;
+}
+.head a:hover{
+    background: #4378B1;
+    color:white;
+    display: block;
+}
+.search{
+    height:33px;
+    line-height:33px;
+    color:white;
+}
+.h_right{
+    float: right;
+}

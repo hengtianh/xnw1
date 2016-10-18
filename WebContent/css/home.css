@@ -1,0 +1,43 @@
+.home{
+    width:1000px;
+    margin:0 auto;
+}
+.home a{
+    text-decoration: none;
+    font-weight:bold;
+    font-size:14px;
+}
+.home_l{
+    float: left;
+}
+.home_l table tr td{
+    padding:5px 0 5px 0;
+}
+
+.home_c{
+    float: left;
+    font-size:14px;
+    margin-left:40px;
+}
+.home_c p{
+    font-size:14px;
+    font-weight:bold;
+}
+.home_r{
+    float: left;
+    font-size:14px;
+    font-weight:bold;
+    margin:15px 0 15px 0;
+}
+.friend table tr td{
+    margin:5px 0 5px 0;
+}
+.friend{
+    margin-top: 20px;
+}
+.familare{
+    margin-top:20px;
+}
+.f_birth{
+    margin-top: 20px;
+}

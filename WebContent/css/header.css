@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+.head{
+	width:1000px;
+	height:101px;
+	margin:0 auto;
+	background-color: #3b5888;
+}
+.head img{
+	float: left;
+}
+.head ul li{
+	float: right;
+	height:33px;
+	line-height:33px;
+	width:60px;
+	text-align: center;
+
+}
+.head a{
+	color:white;
+}
+.head a:hover{
+	background: #4378B1;
+	color:white;
+	display: block;
+}

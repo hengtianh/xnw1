@@ -1,0 +1,52 @@
+.reg{
+    width:1000px;
+    margin:0 auto;
+    height:550px;
+    background-color: #f7f7f7;
+}
+.reg_left{
+    width:270px;
+    margin:0 0 0 80px;
+    padding-top:10px;
+    float: left;
+    background-color: #f7f7f7;
+}
+.reg_right{
+    width:650px;
+    background-color: #f7f7f7;
+    height:500px;
+    float: right;
+}
+.reg_title{
+    font-size:22px;
+    font-family:"华文新魏";
+    font-weight:bold;
+    margin-top: 10px;
+}
+form td{
+    height:30px;
+    line-height: 30px;
+    padding-right:5px;
+    font-size:14px;
+}
+.reg_input{
+    width:230px;
+    height:30px;
+    border: 1px solid lightblue;
+    margin-top: 5px;
+}
+.reg_right button{
+    width:100px;
+    height:30px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+.stu{
+	display: none;
+}
+.spanVal{
+	padding-left:10px;
+	background-color: yellow;
+}
+
+

@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+body{
+	font-size:14px;
+	background-color: gray;
+}
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style-type: none;
+}

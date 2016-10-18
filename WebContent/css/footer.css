@@ -1,0 +1,33 @@
+.foot{
+    width:1000px;
+    margin:0 auto;
+    background-color: lightgray;
+}
+.foot-nav{
+    height:60px;
+}
+.foot-nav span{
+    float: left;
+    margin:10px 0 0 10px;
+}
+.foot-nav ul li{
+    width:60px;
+    height:33px;
+    margin:10px 10px 0 0;
+    float: right;
+    line-height:33px;
+    text-align: center;
+}
+.foot-nav a:link{
+    /*background-color: gray;*/
+    color:white;
+    display: block;
+}
+.foot-nav a:hover{
+    /*background-color: red;*/
+    color:red;
+    display: block;
+}
+.foot-nav img{
+    float: left;
+}
