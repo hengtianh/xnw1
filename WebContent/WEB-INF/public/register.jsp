@@ -99,19 +99,19 @@
 					<tr>
 						<td align="right">电子邮箱：</td>
 						<td><label for="email"></label> <input class="reg_input"
-							type="text" name="eimal" id="eimal"></td>
+							type="email" name="eimal" id="eimal"></td>
 						<td>&nbsp;</td>
 					</tr>
 					<tr>
 						<td align="right">设置密码：</td>
 						<td><label for="pwd"></label> <input class="reg_input"
-							type="text" name="pwd" id="pwd"></td>
+							type="password" name="pwd" id="pwd"></td>
 						<td>&nbsp;</td>
 					</tr>
 					<tr>
 						<td align="right">确认密码：</td>
 						<td><label for="repwd"></label> <input class="reg_input"
-							type="text" name="repwd" id="repwd"></td>
+							type="password" name="repwd" id="repwd"></td>
 						<td>&nbsp;</td>
 					</tr>
 					<tr>
@@ -194,7 +194,6 @@
 			var province_id = $('#province').val();
 			$.post('json/JsonAction_getCityByProId.action',{pro_id:province_id},function(data){
 				for(var i=0; i<data.citys.length; i++){
-					alert(data.citys[i]);
 					$('#city').append(
 							'<option' + ' value="' + data.citys[i][0] + '">'
 									+ data.citys[i][1] + '</option>');

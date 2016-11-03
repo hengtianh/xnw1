@@ -5,6 +5,7 @@ import java.util.List;
 import com.xiaonei.dao.UserDao;
 import com.xiaonei.domain.City;
 import com.xiaonei.domain.Province;
+import com.xiaonei.domain.User;
 import com.xiaonei.service.UserService;
 
 
@@ -22,8 +23,8 @@ public class UserServiceImpl implements UserService{
 
 
 	@Override
-	public void saveUser() {
-		userDao.saveUser();
+	public void saveUser(User user) {
+		userDao.saveUser(user);
 	}
 
 

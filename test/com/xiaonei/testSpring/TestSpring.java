@@ -6,6 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.xiaonei.domain.User;
+import com.xiaonei.service.UserService;
 import com.xiaonei.web.UserAction;
 
 public class TestSpring {
@@ -23,5 +24,14 @@ public class TestSpring {
 		UserAction service = (UserAction) context.getBean("UserAction");
 		System.out.println(service);
 		service.toRegisterUI();
+	}
+	
+	@Test
+	public void testSession(){
+		UserService service = (UserService) context.getBean("userService");
+		User user = new User();
+		user.setRealName("小明");
+		user.setPwd("123");
+		service.saveUser(user);
 	}
 }

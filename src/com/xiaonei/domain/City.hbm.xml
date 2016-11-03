@@ -11,9 +11,6 @@
         <property name="city" type="java.lang.String">
             <column name="city" />
         </property>
-        <property name="province_id" type="int" insert="false" update="false">
-        	<column name="province_id"></column>
-        </property>
         <many-to-one name="province" class="com.xiaonei.domain.Province">
         	<column name="province_id"></column>
         </many-to-one>

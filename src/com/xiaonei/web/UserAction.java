@@ -40,7 +40,7 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
 	 */
 	public String register(){
 		
-		
+		userService.saveUser(user);
 		
 		return "home";
 	}
